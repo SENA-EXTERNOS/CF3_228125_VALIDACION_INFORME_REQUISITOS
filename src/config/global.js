@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Validación de informe de los requisitos ',
     descripcionCurso:
-      'El componente formativo explica cómo realizar la validación del documento de informe de resultado basado en requerimientos del cliente, teniendo en cuenta directrices de revisión, con el objetivo de realizar los ajustes correspondientes, en la documentación, luego realizar los requisitos de desarrollo de acuerdo a su importancia y se terminar con la gestión para aprobación de la misma.',
+      'En el presente componente formativo, se explica cómo realizar la validación del documento de un informe de resultado, basado en requerimientos del cliente, teniendo en cuenta directrices de revisión, con el objetivo de realizar los ajustes correspondientes en la documentación, para luego realizar los requisitos de desarrollo, de acuerdo con su importancia.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -35,38 +35,6 @@ export default {
         numero: '1',
         titulo: 'Proceso de validación de requisitos.',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Técnicas de validación de requisitos Verificaciones',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Criterios',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Verificación y validez (V & V)',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Tipos de técnicas de validación',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Análisis',
-            hash: 't_1_5',
-          },
-        ],
       },
 
       {
@@ -75,14 +43,6 @@ export default {
         numero: '2',
         titulo: 'Modelado',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Principios generales a utilizar en la validación',
-            hash: 't_2_1',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -127,30 +87,30 @@ export default {
   },
   complementario: [
     {
-      tema: 'Priorizar a través de los tipos y niveles de requerimientos.',
+      tema: 'Proceso de validación de requisitos',
       referencia:
-        'De Querétaro, S. (21 de enero de 2021). Ingeniería de Requerimientos - Priorizar a través de los tipos y niveles de requerimientos [Archivo de video]. ',
+        'De Querétaro, S. (2021). <i>Ingeniería de Requerimientos - Priorizar a través de los tipos y niveles de requerimientos</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=TRp3ZkjKtj8',
     },
     {
-      tema: 'Ingeniería de requerimientos, análisis.',
+      tema: 'Proceso de validación de requisitos',
       referencia:
-        'Ingeniería de Software de Élite. (21 de enero de 2021). Ingeniería de requerimientos - Análisis [Archivo de video]. ',
+        'Ingeniería de Software de Élite. (2021). <i>Ingeniería de requerimientos - Análisis</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=FBeupL-0Gvk',
     },
     {
-      tema: 'Ingeniería de requerimientos <i>Product owner.</i>',
+      tema: 'Proceso de validación de requisitos',
       referencia:
-        'Ingeniería de Software de Élite. (5 de julio de 2022).  Ingeniería de requerimientos: el rol del analista / <i>product owner</i> [Archivo de video]. ',
+        'Ingeniería de Software de Élite. (2022).  Ingeniería de requerimientos: el rol del analista / product owner [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=gDVxbRtLAFA',
     },
     {
-      tema: 'Ingeniería de requerimientos.',
+      tema: 'Proceso de validación de requisitos',
       referencia:
-        'https://savezeditorial.com/index.php/savez/article/view/26/28',
+        'Reyna, J. E., Huapaya, F. R., Perales, R. S. & Fuentes, D. J. (2021). Ingeniería de requerimientos - Un enfoque práctico. Savez Editorial.',
       tipo: 'PDF',
       link: 'https://savezeditorial.com/index.php/savez/article/view/26/28',
     },
@@ -169,7 +129,7 @@ export default {
     {
       termino: 'Ingeniería de requisitos',
       significado:
-        'abarca aquellas acciones asociadas con el hallazgo de las necesidades requeridas a la hora de generar un nivel de satisfacción de un software nuevo o modificado, teniendo en cuenta los diferentes requisitos de las partes interesadas, que pueden generar conflicto entre ellos.',
+        'abarca aquellas acciones asociadas con el hallazgo de las necesidades requeridas a la hora de generar un nivel de satisfacción de un <i>software</i> nuevo o modificado, teniendo en cuenta los diferentes requisitos de las partes interesadas, que pueden generar conflicto entre ellos.',
     },
     {
       termino: 'Manual de usuario',
@@ -210,34 +170,13 @@ export default {
   referencias: [
     {
       referencia:
-        'Balaguera R., Cabrera, J. F., & Cuadros, F. J. (2017). <i>Identificación y análisis de los factores de éxito y fracaso en la gerencia de proyectos – caso concesión vial Córdoba Sucre.</i> Escuela colombiana de ingeniería Julio Garavito.',
+        'Balaguera R., Cabrera, J. F. & Cuadros, F. J. (2017). <i>Identificación y análisis de los factores de éxito y fracaso en la gerencia de proyectos - caso concesión vial Córdoba Sucre.</i> Escuela colombiana de ingeniería Julio Garavito.',
       link: '',
     },
     {
       referencia:
-        'Buitrón, S.L., Flores-Ríos, B.L. y Pino, F.J. (2018). Elicitación de requisitos no funcionales basada en la gestión de conocimiento de los <i>stakeholders</i> Ingeniare. Revista chilena de ingeniería, 26(1), 142-156.',
+        'Buitrón, S .L., Flores-Ríos, B. L. y Pino, F. J. (2018). Elicitación de requisitos no funcionales basada en la gestión de conocimiento de los stakeholders Ingeniare. <i>Revista chilena de ingeniería,</i> 26(1), p. 142-156.',
       link: '',
-    },
-    {
-      referencia:
-        'De Querétaro, S. (21 de enero de 2021). Ingeniería de Requerimientos - Priorizar a través de los tipos y niveles de requerimientos [Archivo de video]. YouTube. ',
-      link: 'https://www.youtube.com/watch?v=TRp3ZkjKtj8',
-    },
-    {
-      referencia:
-        'Ingeniería de Software de Élite. (21 de enero de 2021). Ingeniería de requerimientos - Análisis [Archivo de video]. YouTube',
-      link: 'https://www.youtube.com/watch?v=FBeupL-0Gvk',
-    },
-
-    {
-      referencia:
-        'Ingeniería de Software de Élite. (5 de julio de 2022).  Ingeniería de requerimientos: el rol del analista / <i>product owner</i> [Archivo de video]. YouTube. ',
-      link: 'https://www.youtube.com/watch?v=gDVxbRtLAFA',
-    },
-    {
-      referencia:
-        'ISO/IEC, “ISO/IEC 25023:2016 (2016). Página web organización ISO. Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — Measurement of system and software product quality. Recuperate de: ',
-      link: 'https://www.iso.org/standard/35747.html',
     },
     {
       referencia:

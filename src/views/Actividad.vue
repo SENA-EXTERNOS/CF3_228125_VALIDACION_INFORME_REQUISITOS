@@ -9,9 +9,9 @@
           figure
             img(src="@/assets/curso/temas/ad.png", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo.color-acento-contenido
+        .titulo-segundo.color-acento-botones
           h2 Validación de informe de los requisitos
-        p.mb-4 Apreciado aprendiz, se agradece el tiempo dedicado a la realización de este componente de formación, por ello se invita a reforzar los conocimientos adquiridos respondiendo falso o verdadero a las siguientes preguntas.  
+        p.mb-4 Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo:
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

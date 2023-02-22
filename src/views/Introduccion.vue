@@ -11,9 +11,9 @@
 
     .row.justify-content-center
       .col-md-7
-        p Estimado aprendiz, bienvenido al presente componente formativo, a continuación, se abordarán temáticas relacionadas con la validación del resultado del informe de los requisitos de acuerdo con las reglas de negocio y solicitudes de clientes, se pretende brindar los conocimientos principales a los estudiantes que tienen como fin, encontrar la técnica que mejor se adapte a su proyecto y al documento de requerimiento para realizar las validaciones de requisito de una manera óptima y eficaz.
-        p Este componente tendrá un carácter teórico, en el cual se tendrá la oportunidad de explorar los tipos de técnicas y su aplicación, además, realizar los ajustes al documento después de aplicarlas, así mismo, dar prioridades a la ejecución de los requerimientos y finalizar con la gestión de la aprobación de los documentos en proceso.
-        p ¡Éxitos en esta nueva experiencia de aprendizaje!
+        p Apreciado aprendiz, bienvenido a este componente formativo, donde se abordarán las temáticas relacionadas con la validación del resultado del informe de los requisitos, de acuerdo con las reglas de negocio y solicitudes de clientes; se brindarán los conocimientos para encontrar la técnica que mejor se adapte a su proyecto y al documento de requerimiento, para realizar las validaciones de requisito, de una manera óptima y eficaz. 
+        p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+
       .col-md-5
         figure
           img(src='@/assets/curso/temas/introduccion.png', alt='alt')
