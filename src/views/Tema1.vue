@@ -7,12 +7,6 @@
         span.text-white 1
       h1 Proceso de validación de requisitos
 
-    figure.mt-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            
-    <separador></separador>
-
       
     .row.justify-content-center.mb-5
       .col-md-7.my-5
@@ -41,9 +35,9 @@
           .row(titulo="Problemas en los requisitos").px-5.py-2
             p Si los clientes y usuarios ponen de manifiesto falencias con los requisitos establecidos, se deben señalar como problemas de tipo no aceptación y registrarse adecuadamente, luego, en el proceso, se deben evaluar problemas del sistema para solucionarlos correctamente.                                 
           div(titulo="El resultado de la validación de requisitos ").px-5.py-3
-            p es la lista de problemas y las acciones acordadas detectadas, e indica el hallazgo en el proceso de validación de requisitos. La lista de acciones acordadas, establece la acción correctiva que se debe tomar para solucionarlo.
+            p Es la lista de problemas y las acciones acordadas detectadas, e indica el hallazgo en el proceso de validación de requisitos. La lista de acciones acordadas, establece la acción correctiva que se debe tomar para solucionarlo.
           div(titulo="Validación").px-5.py-3
-            p es necesario evaluar y revisar los requisitos del sistema, para desarrollarlos en un sistema #[i software,] acorde con las necesidades del negocio.
+            p Es necesario evaluar y revisar los requisitos del sistema, para desarrollarlos en un sistema #[i software,] acorde con las necesidades del negocio.
                         
 
     p.mt-5 Tras la generación del documento, se deben validar los diferentes requerimientos, revisando que el proceso se haya desarrollado de manera objetiva y concreta. Las validaciones que se realizan son:
@@ -167,7 +161,7 @@
     .titulo-tercero
       h3 Análisis
 
-    p Además de hacer requisitos, es necesario revisarlos. Estudiar los requerimientos tiene que ver con la actividad que se va a desarrollar y realizar un análisis de cada uno de manera separada y en conjunto, en los siguientes apartados se puede observar los tipos de análisis a usarse:
+    p Estudiar los requerimientos, tiene que ver con la actividad que se va a desarrollar y realizar un análisis de cada uno de manera separada y en conjunto. Conozcamos los tipos de análisis que se utilizan:
 
     .row.justify-content-center.mt-5
       .col-md-7
@@ -178,26 +172,34 @@
             p Se puede dar cuando la solución aplicada es concretamente la que el requerimiento necesitaba. Este criterio es la manera de medirlos, es decir, de qué manera se van a cuantificar con base en su cumplimiento. Lo anterior se trabaja para requerimientos funcionales y no funcionales. Para los criterios de aceptación, se realizan los planes de pruebas. (Buitrón, Flores-Ríos y Pino, 2018)
           div(titulo="Dependencias y conflictos").px-5.py-3
             p Los requerimientos presentan contrariedad dadas sus características de informalidad. La tipificación de los conflictos se puede presentar de la siguiente manera:
-            ol.lista-ol--cuadro
-              li.bg-li 
-                p.px-3 Conflicto de conducta: cuando dos o más requisitos, precisan conductas distintas para el mismo estímulo externo, sistema y condiciones.
-              li.bg-li 
-                p.px-3 Conflicto de términos: son diferentes para el mismo concepto.
-              li.bg-li 
-                p.px-3 Conflicto de características: se especifican aspectos de contrariedad para la misma característica del sistema. 
-              li.bg-li 
-                p.px-3 Conflictos temporales: cuando dos o más requisitos requieren características temporales.
+            ul.lista-ul--color
+              li
+                i.fas.fa-play
+                | Conflicto de conducta: cuando dos o más requisitos, precisan conductas distintas para el mismo estímulo externo, sistema y condiciones.
+              li
+                i.fas.fa-play
+                | Conflicto de términos: son diferentes para el mismo concepto.
+              li
+                i.fas.fa-play
+                |3 Conflicto de características: se especifican aspectos de contrariedad para la misma característica del sistema. 
+              li
+                i.fas.fa-play
+                | Conflictos temporales: cuando dos o más requisitos requieren características temporales.
           div(titulo="Trazabilidad").px-5.py-3
             p Los requisitos deben ser medibles. Es fundamental conocer los aspectos de requerimientos, tales como: 
-            ol.lista-ol--cuadro
-              li.bg-li 
-                p.px-3 Su origen (quién los propuso). 
-              li.bg-li 
-                p.px-3 Necesidad (por qué existe).
-              li.bg-li 
-                p.px-3 Relación con otros requisitos (dependencias).  
-              li.bg-li 
-                p.px-3 Relación con otros elementos (dependencias).
+            ul.lista-ul--color
+              li
+                i.fas.fa-play
+                | Su origen (quién los propuso). 
+              li
+                i.fas.fa-play
+                | Necesidad (por qué existe).
+              li
+                i.fas.fa-play
+                | Relación con otros requisitos (dependencias).  
+              li
+                i.fas.fa-play
+                | Relación con otros elementos (dependencias).
           div(titulo="Especificación").px-5.py-3
             p Es la descripción de un sistema. La especificación debe expresar en cada requerimiento, sus restricciones, funcionalidad, artes del diseño a las que afecta, rendimientos, tipos de clientes, entre otros, de una manera clara y concisa.
             

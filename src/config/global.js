@@ -33,7 +33,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Proceso de validación de requisitos.',
+        titulo: 'Proceso de validación de requisitos',
         desarrolloContenidos: true,
       },
 
@@ -89,28 +89,28 @@ export default {
     {
       tema: 'Proceso de validación de requisitos',
       referencia:
-        'De Querétaro, S. (2021). <i>Ingeniería de Requerimientos - Priorizar a través de los tipos y niveles de requerimientos</i> [video]. YouTube.',
+        'De Querétaro, S. (2021). <i>Ingeniería de Requerimientos - Priorizar a través de los tipos y niveles de requerimientos</i> [video].',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=TRp3ZkjKtj8',
     },
     {
       tema: 'Proceso de validación de requisitos',
       referencia:
-        'Ingeniería de Software de Élite. (2021). <i>Ingeniería de requerimientos - Análisis</i> [video]. YouTube.',
+        'Ingeniería de <i>Software</i> de Élite. (2021). <i>Ingeniería de requerimientos - Análisis</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=FBeupL-0Gvk',
     },
     {
       tema: 'Proceso de validación de requisitos',
       referencia:
-        'Ingeniería de Software de Élite. (2022).  Ingeniería de requerimientos: el rol del analista / product owner [video]. YouTube.',
+        'Ingeniería de <i>Software</i> de Élite. (2022).  <i>Ingeniería de requerimientos: el rol del analista / product owner</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=gDVxbRtLAFA',
     },
     {
       tema: 'Proceso de validación de requisitos',
       referencia:
-        'Reyna, J. E., Huapaya, F. R., Perales, R. S. & Fuentes, D. J. (2021). Ingeniería de requerimientos - Un enfoque práctico. Savez Editorial.',
+        'Reyna, J. E., Huapaya, F. R., Perales, R. S. & Fuentes, D. J. (2021). <i>Ingeniería de requerimientos - Un enfoque práctico.</i> Savez Editorial.',
       tipo: 'PDF',
       link: 'https://savezeditorial.com/index.php/savez/article/view/26/28',
     },
@@ -164,7 +164,7 @@ export default {
     {
       termino: 'Validación de <i>software</i>',
       significado:
-        'se refiere al proceso de evaluar que un sistema de software, cumple con las condiciones y los requisitos adecuados según el objeto para el cual ha sido creado o modificado.',
+        'se refiere al proceso de evaluar que un sistema de <i>software</i>, cumple con las condiciones y los requisitos adecuados según el objeto para el cual ha sido creado o modificado.',
     },
   ],
   referencias: [
@@ -180,7 +180,7 @@ export default {
     },
     {
       referencia:
-        'Reyna, J., Huapaya, F., Perales, R. y Fuentes, D. (2021). <i>Ingeniería de requerimientos.</i> Un enfoque práctico. Savez editorial. ',
+        'Reyna, J., Huapaya, F., Perales, R. y Fuentes, D. (2021). <i>Ingeniería de requerimientos. Un enfoque práctico.</i> Savez editorial. ',
       link: 'https://savezeditorial.com/index.php/savez/article/view/26/28',
     },
   ],
