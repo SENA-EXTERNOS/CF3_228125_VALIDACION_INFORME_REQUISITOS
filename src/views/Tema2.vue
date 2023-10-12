@@ -16,8 +16,11 @@
                     
     p.mt-5.mb-5 El modelo de casos de uso y el modelo de requisitos, son claves para los demás modelos presentados a continuación:
 
+
     .row.justify-content-center.my-5
       .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-2
+          p.mb-0 #[b Figura 3] #[br] #[em Modelo de requisitos]
         figure
           img(src='@/assets/curso/temas/tema2/img1.svg', alt='alt')  
       

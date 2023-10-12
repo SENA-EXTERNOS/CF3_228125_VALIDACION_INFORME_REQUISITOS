@@ -13,12 +13,13 @@
         p La validación es la etapa final de los procesos de la ingeniería de requisitos. Tiene como principal objetivo, validar todos los requisitos/requerimientos que se encuentran en la documentación, de forma específica, para garantizar una descripción aceptable del #[i software] que se debe ejecutar. Desde este momento, se garantiza que los requisitos se encuentren completos, sean claros y lo más verídicos posible. La validación de requisitos es trascendental en el trabajo de desarrollo de #[i software full stack,] dado que los errores en el documento de requerimientos, se convierten en costos considerables, al generar reproceso, cuando son evidenciados en el desarrollo o cuando el sistema está en uso. Los costos que se generan al solucionar un problema en los requerimientos, cambiando y ajustando el sistema, puede ser más grandes que arreglar las falencias de diseño o los de codificación.
         p La validación de requerimientos, es un trabajo continuo al momento de desarrollar un #[i software], porque garantiza que los requerimientos solicitados sean exactos, según las necesidades y expectativas de los clientes. Esta actividad contribuye a optimizar la calidad de los requerimientos, a reducir costos, tiempos y riesgos en su desarrollo.
         p Observemos cómo es el flujo de validación de los requerimientos:
-
       .col-md-4
         figure
-          img(src='@/assets/curso/temas/tema1/img1.png', alt='alt').img1-tm1
+          img(src='@/assets/curso/temas/tema1/img1.png', alt='').img1-tm1
 
 
+    .titulo-sexto.color-acento-contenido.mb-2
+      p.mb-0 #[b Figura 1] #[br] #[em Flujo de validación]
     .row.justify-content-center.margenes-img
       figure
         img(src='@/assets/curso/temas/tema1/img2.svg', alt='').img400.m-auto  
@@ -26,7 +27,7 @@
 
     p.mt-5.mb-5 Para permitir la validación de los requisitos, se aconseja utilizar prototipos de interfaces de usuarios, que posibiliten comprender, claramente, el sistema #[i software] propuesto y los requisitos usados al momento de verificar un caso de uso. Ampliemos la información al respecto.
 
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.mb-5
       .col-md-5
         figure
           img(src='@/assets/curso/temas/tema1/img4.png', alt='alt')
@@ -39,8 +40,9 @@
           div(titulo="Validación").px-5.py-3
             p Es necesario evaluar y revisar los requisitos del sistema, para desarrollarlos en un sistema #[i software,] acorde con las necesidades del negocio.
                         
-
-    p.mt-5 Tras la generación del documento, se deben validar los diferentes requerimientos, revisando que el proceso se haya desarrollado de manera objetiva y concreta. Las validaciones que se realizan son:
+    h3 Verificaciones
+    
+    p Tras la generación del documento, se deben validar los diferentes requerimientos, revisando que el proceso se haya desarrollado de manera objetiva y concreta. Las validaciones que se realizan son:
 
     .bg-tarjeta-avatar.margenes-img.my-5.p-5.p-lg-0
       SlyderF(columnas="col-sm-4")
@@ -66,9 +68,10 @@
             p.text-center.mt-3 #[strong Verificabilidad:] confirmar que los requerimientos presentes en el documento, puedan verificarse; en otras palabras, que con una serie de pruebas al sistema, se pueda validar que el requerimiento planteado sí cumple logrando, de esta manera, disminuir los problemas que puedan presentarse entre el contratista y el cliente.
 
 
+    h3 Criterios
     p Si solo se siguen los criterios teóricos anteriormente mencionados, puede pasar que se genere un análisis incompleto, y se pueden presentar detalles que no sean percibidos. A continuación, observemos otros criterios:
 
-    .bg-linea-tiempo.margenes-img.my-5
+    .bg-linea-tiempo.margenes-img.my-5.mb-5
       .row.justify-content-center.mt-5
         .col-md-4.mt-5
           figure
@@ -84,23 +87,24 @@
             p(numero="7" titulo="Modificables") La construcción y diseño de los requisitos debe posibilitar hacer cambios de forma clara y sencilla.
             p(numero="8" titulo="Trazables") Los requisitos tienen un principio muy claro, del mismo modo es posible realizar un seguimiento del requerimiento de manera fácil durante el proyecto.
 
-    <separador></separador>
+    
     .titulo-tercero
       h3 Verificación y validez (V & V)
 
-    p El Instituto de ingeniería eléctrica y electrónica 1012 (2004), (IEEE STD por sus siglas en inglés), señala que los procesos de verificación y validación (V&V) de #[i software], determinan si los productos de desarrollo de una tarea determinada, cumplen con los requerimientos y con las necesidades del usuario. Es un trabajo transversal al ciclo de desarrollo del sistema, al señalar que la V&V tiene lugar en cada etapa del proceso y empieza con las revisiones de los requisitos; luego se continúa con la validación del diseño e inspecciones de código, hasta llegar a la prueba del producto. (Reyna, Huapaya, Perales y Fuente, 2021, p. 125)
+    p.mb-4 El Instituto de ingeniería eléctrica y electrónica 1012 (2004), (IEEE STD por sus siglas en inglés), señala que los procesos de verificación y validación (V&V) de #[i software], determinan si los productos de desarrollo de una tarea determinada, cumplen con los requerimientos y con las necesidades del usuario. Es un trabajo transversal al ciclo de desarrollo del sistema, al señalar que la V&V tiene lugar en cada etapa del proceso y empieza con las revisiones de los requisitos; luego se continúa con la validación del diseño e inspecciones de código, hasta llegar a la prueba del producto. (Reyna, Huapaya, Perales y Fuente, 2021, p. 125)
 
+    .titulo-sexto.color-acento-contenido.mb-2
+      p.mb-0 #[b Figura 2] #[br] #[em Verificación y validez]
     .row.justify-content-center.margenes-img
       figure
         img(src='@/assets/curso/temas/tema1/img13.svg', alt='').img400.m-auto 
 
     p.mt-5.mb-5 Ahora, dentro del proceso de verificación y validez (V&V), existen dos aproximaciones para la comprobación de los sistemas y el análisis, las cuales son:
 
-    .bg-slider-imagenes.p-5
+    .bg-slider-imagenes.p-5.mb-5
       SlyderB.mb-5(:datos="datosSlyder")
 
-    <separador></separador>
-
+   
     .titulo-tercero
       h3 Tipos de Técnicas de validación
 
